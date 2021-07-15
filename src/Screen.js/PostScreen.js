@@ -102,7 +102,7 @@ const PostScreen = (props) => {
             {/* <Form.Label>Default file input example</Form.Label> */}
              <Form.Control name="file" type="file" onChange={(e)=>uploadFile(e)} >
             </Form.Control> 
-            {   data ? <Image src={ data.Article_Image_Link}/> : ""} 
+            {   data ? <Image className="img-post" src={ data.Article_Image_Link}/> : ""} 
             
           </Form.Group>
             <Button onClick={submitHandler}>{data ? "Update" : "Add" }</Button>

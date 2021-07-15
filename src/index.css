@@ -103,6 +103,11 @@ margin-bottom:5%;
   padding: 10px;
 }
 
+.img-post{
+  width: 200px;
+  height: 200px;
+}
+
 .hamburger{
   font-size: xxx-large;
 }
