@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Main from './Screen.js/Routes';
-import Pokemon from './Screen.js/Pokemon';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      {/* <NavBar/> */}
       <Main/>
       {/* <Pokemon/> */}
     </div>
